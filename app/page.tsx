@@ -1,7 +1,13 @@
-import Image from "next/image";
+import Hero from "./components/hero/Hero";
+import About from "./components/About";
 
 const Home = async () => {
-  return <section className="h-[3000px] text-black">This is home</section>;
+  return (
+    <>
+      <Hero />
+      <About />
+    </>
+  );
 };
 
 export default Home;

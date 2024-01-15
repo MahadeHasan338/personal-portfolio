@@ -48,7 +48,7 @@ export default function Header() {
             <li key={i}>
               <Link
                 className="hover:text-violet-700 transition-colors capitalize cursor-pointer"
-                href={e}
+                href={`#${e}`}
               >
                 {e}
               </Link>
