@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { ReactNode } from "react";
 import { poppins } from "./fonts";
 import Header from "@/app/components/Header";
@@ -16,6 +17,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
+      <SpeedInsights />
       <body
         className={`${poppins.className} bg-gray-100/50 text-black overflow-x-hidden`}
         suppressHydrationWarning={true}

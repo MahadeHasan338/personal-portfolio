@@ -50,6 +50,7 @@ const Hero = () => {
               height={1000}
               className="rounded-full w-full h-full object-cover"
               src="/hero/hero.png"
+              priority
             />
           </div>
 

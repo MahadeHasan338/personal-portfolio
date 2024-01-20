@@ -18,7 +18,7 @@ const Skills = () => {
     {
       name: "Bootstrap",
       category: "Frontend",
-      image: "/skills/frontend/bootstrap.webp",
+      image: "/skills/frontend/bootstrap.png",
     },
     {
       name: "Tailwind",
@@ -163,7 +163,7 @@ const Skills = () => {
     {
       name: "Vercel",
       category: "Others",
-      image: "/skills/others/vercel.svg",
+      image: "/skills/others/vercel.png",
     },
     {
       name: "Netlify",

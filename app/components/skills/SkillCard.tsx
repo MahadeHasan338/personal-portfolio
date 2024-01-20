@@ -23,7 +23,7 @@ const Skill = ({ name, image }: any) => {
         title={name}
         style={{ backgroundColor: bgColor }}
         className={
-          "h-20 w-20 md:h-24 md:w-24 rounded-full bg-gray-100 dark:bg-grey-800 flex items-center justify-center"
+          "h-20 w-20 md:h-24 md:w-24 rounded-full bg-gray-100 flex items-center justify-center"
         }
       >
         <Image

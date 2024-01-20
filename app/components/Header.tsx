@@ -31,7 +31,7 @@ export default function Header() {
     <header
       className={`backdrop-filter backdrop-blur-lg ${
         scroll ? "border-b bg-white bg-opacity-40" : "border-b-0"
-      } dark:bg-grey-900 dark:bg-opacity-40 border-gray-200 dark:border-b-0 z-30 min-w-full flex flex-col fixed`}
+      }border-gray-200 z-30 min-w-full flex flex-col fixed`}
     >
       <nav className="lg:w-11/12 2xl:w-4/5 w-full md:px-6 2xl:px-0 mx-auto py-4 hidden lg:flex items-center justify-between">
         <Link href={"/"} className="flex items-center space-x-2 font-bold">
@@ -86,7 +86,7 @@ export default function Header() {
           onClick={() => setNavCollapse(true)}
         ></div>
 
-        <div className="flex flex-col p-4 gap-5 bg-gray-100/95 backdrop-filter backdrop-blur-sm dark:bg-grey-900/95 w-3/4 md:w-2/4">
+        <div className="flex flex-col p-4 gap-5 bg-gray-100/95 backdrop-filter backdrop-blur-sm w-3/4 md:w-2/4">
           <CgClose
             className="self-end my-2"
             size={20}
