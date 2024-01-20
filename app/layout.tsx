@@ -17,13 +17,13 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
-      <SpeedInsights />
       <body
         className={`${poppins.className} bg-gray-100/50 text-black overflow-x-hidden`}
         suppressHydrationWarning={true}
       >
         <Header />
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
