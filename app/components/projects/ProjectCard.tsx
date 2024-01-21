@@ -31,9 +31,7 @@ const Project = ({ name, image, techStack, links }: any) => {
       <div className="relative group rounded-lg bg-violet-50">
         <Image
           alt={name}
-          width={1000}
-          height={1000}
-          className="max-w-full h-48 max-h-full object-fit object-center rounded-lg"
+          className="max-w-full h-[196px] max-h-full object-fit object-top rounded-lg"
           src={image}
         />
         {links.visit.trim() && (

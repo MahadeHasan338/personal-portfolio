@@ -23,16 +23,6 @@ const Socials = () => {
       link: "https://www.instagram.com/mh_the_shadow?igsh=eHhxNDFnZWNyYnZ1&utm_source=qr",
       icon: <FaInstagram />,
     },
-    {
-      id: 4,
-      link: "#",
-      icon: <FaSquareXTwitter />,
-    },
-    {
-      id: 5,
-      link: "#",
-      icon: <FaStackOverflow />,
-    },
   ];
 
   return (

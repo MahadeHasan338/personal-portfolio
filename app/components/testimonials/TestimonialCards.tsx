@@ -100,8 +100,10 @@ export default function TestimonialsSlider({ testimonials }: any) {
                 active === index ? "text-indigo-200" : "text-slate-300"
               }`}
             >
+              {" "}
               -
-            </span>{" "}
+              {" "}
+            </span>
             <span>{testimonial.role}</span>
           </button>
         ))}

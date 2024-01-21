@@ -1,8 +1,7 @@
 "use client";
-import TestimonialImg01 from "/public/testimonials/alouni.jpeg";
-import TestimonialImg02 from "/public/testimonials/no-image.jpg";
-import TestimonialImg03 from "/public/testimonials/shibbir.jpeg";
-import TestimonialImg04 from "/public/testimonials/no-image.jpg";
+import TestimonialImg01 from "/public/testimonials/shohel.webp";
+import TestimonialImg02 from "/public/testimonials/eahiya.jpeg";
+import TestimonialImg03 from "/public/testimonials/rakib.webp";
 import TestimonialsSlider from "./TestimonialCards";
 import SectionWrapper from "../SectionWrapper";
 
@@ -11,30 +10,23 @@ export default function Testimonials() {
     {
       img: TestimonialImg01,
       quote:
-        "Working with Mr. Shohel Rana is an honor. His wealth of experience and knowledge positions him as a senior engineer and adept team leader, seamlessly navigating both management and development.",
-      name: "Alouani Youssef",
-      role: "Software Engineer",
+        "I had the privilege of directly managing Md Mahade Hasan, a software developer with exceptional dedication and drive. His commitment to excellence, coupled with a natural talent for problem-solving, consistently stood out. Mahade's collaborative nature and eagerness to contribute positively to projects made a lasting impact. I confidently recommend Md Mahade Hasan for any role, confident in his ability to bring enthusiasm and valuable insights to your team.",
+      name: "Shohel Rana",
+      role: "Principal Software Engineer",
     },
     {
       img: TestimonialImg02,
       quote:
-        "I mentored Shohel at Next IT Limited, Dhaka, from 2010 to 2020. He's dedicated, detail-oriented, and skilled at overcoming complex challenges. Shohel excels in fulfilling artistic project objectives. Highly recommend him for your Software Engineer position.",
-      name: "Mahbubr Rashid",
-      role: "Chief Technology Officer",
+        "I highly recommend Md. Mahade Hasan as a Vue Frontend Developer. His integral role within our DEVxHUB team has given me the opportunity to closely collaborate with him. With a true passion for crafting innovative and user-friendly web apps, Md. Mahade consistently delivers high-quality work that often exceeds project requirements. His proficiency in tackling complex interfaces, optimizing performance, and resolving issues showcases his deep understanding of Vue and its ecosystem. His dedication to excellence and invaluable contributions make him a remarkable asset. Without a doubt, Md. Mahade would greatly enhance any team in search of a skilled and dedicated Vue Frontend Developer.",
+      name: "Eahiya Khan",
+      role: "Lead Fullstack Developer",
     },
     {
       img: TestimonialImg03,
       quote:
-        "I've worked alongside Shohel Rana for years and wholeheartedly recommend him as an excellent software engineer. He's motivated, committed to learning, and delivers robust solutions. Shohel's passion for learning and dedication will fuel his career growth.",
-      name: "Shibbir Ahmed Asif",
-      role: "Software Engineer",
-    },
-    {
-      img: TestimonialImg04,
-      quote:
-        "Shohel Rana excels in full-stack development, demonstrating deep technical expertise and leadership. He fosters inclusive teams and guides startups through growth. A brilliant engineer and compassionate mentor, he's an asset to any organization.",
-      name: "Shoriful Islam",
-      role: "Solution Architect",
+        "I wholeheartedly recommend Md. Mahade Hasan as a Vue Frontend Developer. He's been an integral part of our DEVxHUB team, and I've had the pleasure of closely collaborating with him. Md. Mahade Hasan is an exceptional Vue developer, deeply passionate about crafting innovative, user-friendly web apps. His technical prowess consistently delivers high-quality, often surpassing project requirements. Whether tackling complex interfaces, optimizing performance, or resolving issues, he demonstrates a profound understanding of Vue and its ecosystem. His contributions are invaluable, and his dedication to excellence is remarkable. I'm confident he'd be a valuable asset to any team seeking a skilled and devoted Vue Frontend Developer.",
+      name: "Rakib Shanto",
+      role: "QA Engineer",
     },
   ];
 

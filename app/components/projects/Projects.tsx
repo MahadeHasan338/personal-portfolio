@@ -3,172 +3,32 @@ import { useEffect, useState } from "react";
 import SectionWrapper from "../SectionWrapper";
 import ProjectCard from "./ProjectCard";
 import Link from "next/link";
+import oeHealth from "@/public/projects/oeHealth.webp";
+import farenow from "@/public/projects/farenow.webp";
 
 const Projects = () => {
   const projectsData = [
     {
-      name: "JavaScript Projects Website",
-      image: "/projects/AI/other-1.webp",
-      category: "AI/ML",
-      techStack: "HTML5, CSS3, TailwindCSS, SCSS, JavaScript, jQuery, Netlify",
-      links: {
-        visit: "https://example.com/project1",
-        code: "https://github.com/example/project1",
-        video: "https://youtube.com/example-video1",
-      },
-    },
-    {
-      name: "SPPU Prep",
-      image: "/projects/mobile/bank-1.webp",
-      category: "Mobile",
-      techStack: "JavaScript, React Native, Expo, TailwindCSS, Firebase",
-      links: {
-        visit: "https://example.com/project3",
-      },
-    },
-    {
-      name: "Artwork",
-      image: "/projects/web/artwork.png",
+      name: "Oral e-Health Monitoring Platform",
+      image: oeHealth,
       category: "Web",
-      techStack: "React, Python, Django",
+      techStack: "Nuxt JS, Django, Vuetify",
       links: {
-        visit: "https://example.com/project3",
+        visit: "https://teethwallet.com",
       },
     },
     {
-      name: "Mobile Inventory Management System",
-      image: "/projects/mern-stack/mern-6.webp",
+      name: "Farenow Pro",
+      image: farenow,
       category: "Web",
-      techStack: "C#, Microsoft SQL Server, SQL, Visual Basic, EF",
+      techStack: "Next JS, PHP, FullCalendar, Tailwind CSS",
       links: {
-        visit: "/",
-      },
-    },
-    {
-      name: "Cycling Event Management System",
-      image: "/projects/mern-stack/mern-6.webp",
-      category: "Web",
-      techStack: "C#, Microsoft SQL Server, SQL, EF",
-      links: {
-        visit: "/",
-      },
-    },
-    {
-      name: "Composite Knitwear ERP",
-      image: "/projects/mern-stack/mern-6.webp",
-      category: "Web",
-      techStack: "C#, Microsoft SQL Server, SQL, EF",
-      links: {
-        visit: "/",
-      },
-    },
-    {
-      name: "2D Cutting Stock Algorithm for Printing Industries",
-      image: "/projects/mern-stack/mern-6.webp",
-      category: "Web",
-      techStack: "SQL, EF",
-      links: {
-        visit: "/",
-      },
-    },
-    {
-      name: "Volunteer Management System",
-      image: "/projects/mern-stack/mern-6.webp",
-      category: "Web",
-      techStack: "C#, Microsoft Azure, Microsoft SQL Server, SQL, EF",
-      links: {
-        visit: "/",
-      },
-    },
-    {
-      name: "Task Management System",
-      image: "/projects/mern-stack/mern-6.webp",
-      category: "Web",
-      techStack: "C#, Microsoft SQL Server, SQL, EF",
-      links: {
-        visit: "/",
-      },
-    },
-    {
-      name: "Software Prototyping System",
-      image: "/projects/mern-stack/mern-3.webp",
-      category: "Web",
-      techStack: "C#, Microsoft SQL Server, jQuery, SQL, EF",
-      links: {
-        visit: "/",
-      },
-    },
-    {
-      name: "NEXT ERP Solutions",
-      image: "/projects/web/next.png",
-      category: "Web",
-      techStack: "C#, Microsoft SQL Server, Angular, jQuery, SQL, EF, Redis",
-      links: {
-        visit: "/",
-      },
-    },
-    {
-      name: "Pridesys ERP",
-      image: "/projects/web/preside.png",
-      category: "Web",
-      techStack:
-        "JavaScript, Microsoft SQL Server, Angular, Microservices, Java, Spring Boot, SQL",
-      links: {
-        visit: "https://pridesys.com/",
-      },
-    },
-    {
-      name: "Idea Management System",
-      image: "/projects/web/school.png",
-      category: "Web",
-      techStack:
-        "React.js, Node.js, TypeScript, JavaScript, Angular, MySQL, SQL, Elasticsearch",
-      links: {
-        visit: "https://ideascale.com/",
-      },
-    },
-    {
-      name: "Parkolay",
-      image: "/projects/web/parkoly.png",
-      category: "Web",
-      techStack: "React, Python, Django",
-      links: {
-        visit: "https://parkolay.netlify.app/app",
-      },
-    },
-    {
-      name: "Efficient Musculoskeletal Management Assistant (EMMA)",
-      image: "/projects/web/medic.png",
-      category: "Web",
-      techStack:
-        "React.js, Node.js, C#, .NET Core, TypeScript, JavaScript, MongoDB, Project Management, Django, Microsoft SQL Server, TensorFlow, Artificial Intelligence (AI), Machine Learning, Natural Language Processing (NLP), jQuery, SQL, EF, React Native",
-      links: {
-        visit: "https://mymedicalhub.com/",
-      },
-    },
-    {
-      name: "Unified-IOP – Unified Intelligent Operations Platform",
-      image: "/projects/web/unified.png",
-      category: "Web",
-      techStack:
-        "React.js, Node.js, TypeScript, JavaScript, NestJS, MongoDB, Project Management, Go (Programming Language), Gin, Jest, Microfrontend, Microservices, Artificial Intelligence (AI), Machine Learning, Natural Language Processing (NLP), Docker Products, jQuery, MySQL, SQL, Apache Kafka, RabbitMQ, Redis, Elasticsearch",
-      links: {
-        visit: "https://qalqul.com",
-      },
-    },
-    {
-      name: "DoctorBox - the super app for your health",
-      image: "/projects/web/doctorbox.webp",
-      category: "Web",
-      techStack:
-        "Python (Programming Language), Next.js, Amazon Web Services (AWS), Machine Learning",
-      links: {
-        visit: "https://www.doctorbox.de",
+        visit: "https://farenow-pro.vercel.app",
       },
     },
   ];
 
-  const [projects, setProjects] = useState([...projectsData].reverse());
+  const [projects, setProjects] = useState([...projectsData]);
 
   const [filteredProjects, setFilteredProjects] = useState(projects);
   const [viewAll, setViewAll] = useState(false);

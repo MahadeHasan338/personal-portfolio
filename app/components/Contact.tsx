@@ -15,7 +15,7 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
 
-  const handleSubmit = async (e: { preventDefault: () => void; }) => {
+  const handleSubmit = async (e: { preventDefault: () => void }) => {
     e.preventDefault();
 
     if (!values.name.trim() || !values.email.trim() || !values.message.trim()) {
@@ -27,7 +27,7 @@ const Contact = () => {
     toast.success("Email successfully sent!");
   };
 
-  const handleChange = (e: { target: { name: any; value: any; }; }) => {
+  const handleChange = (e: { target: { name: any; value: any } }) => {
     setValues((prevInput) => ({
       ...prevInput,
       [e.target.name]: e.target.value,
@@ -44,7 +44,7 @@ const Contact = () => {
           unoptimized={true}
           quality={100}
           alt="contact"
-          src="/contact/contact.png"
+          src="/contact/contact.webp"
           className="hidden md:block w-1/2 h-full object-cover"
           width={1000}
           height={1000}

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import SectionWrapper from "./SectionWrapper";
-import mahade from "@/public/about/mahade.webp";
+import mahade from "@/public/about/mahade.png";
 
 const About = () => {
   return (
