@@ -1,6 +1,7 @@
 {
   "name": "personal-portfolio",
   "version": "0.1.0",
+  "author": "Mahade Hasan",
   "private": true,
   "scripts": {
     "dev": "next dev",
