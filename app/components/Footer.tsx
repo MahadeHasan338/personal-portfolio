@@ -32,7 +32,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="w-full  bg-white dark:bg-grey-800 text-gray-500 dark:text-gray-300">
+    <footer className="w-full  bg-white text-gray-500 dark:text-gray-300">
       <div className="lg:w-11/12 2xl:w-4/5 w-full md:px-6 2xl:px-0 mx-auto py-4 lg:py-6 flex flex-col-reverse md:flex-row gap-2 md:gap-0 justify-between xl:justify-center items-center">
         <p className="text-sm mt-2 md:mt-0">
           <span className="animate-pulse"> © </span>

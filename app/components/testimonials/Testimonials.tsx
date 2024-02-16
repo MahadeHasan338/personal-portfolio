@@ -2,6 +2,7 @@
 import TestimonialImg01 from "/public/testimonials/shohel.webp";
 import TestimonialImg02 from "/public/testimonials/eahiya.jpeg";
 import TestimonialImg03 from "/public/testimonials/rakib.webp";
+import TestimonialImg04 from "/public/testimonials/halim.jpg";
 import TestimonialsSlider from "./TestimonialCards";
 import SectionWrapper from "../SectionWrapper";
 
@@ -10,21 +11,28 @@ export default function Testimonials() {
     {
       img: TestimonialImg01,
       quote:
-        "I had the privilege of directly managing Md Mahade Hasan, a software developer with exceptional dedication and drive. His commitment to excellence, coupled with a natural talent for problem-solving, consistently stood out. Mahade's collaborative nature and eagerness to contribute positively to projects made a lasting impact. I confidently recommend Md Mahade Hasan for any role, confident in his ability to bring enthusiasm and valuable insights to your team.",
+        "Md Mahade Hasan, an exceptional software developer, embodies dedication, problem-solving prowess, and collaborative spirit. His commitment to excellence leaves a lasting impact. I confidently endorse him for any role.",
       name: "Shohel Rana",
       role: "Principal Software Engineer",
     },
     {
+      img: TestimonialImg04,
+      quote:
+        "Mahade Hasan, an outstanding Frontend Engineer, excels in TypeScript, NuxtJS, NextJS, and more. His dedication and collaboration enhance project outcomes. I wholeheartedly recommend him for any Frontend Engineering role.",
+      name: "Md. Abdul Halim",
+      role: "Lead Frontend Developer",
+    },
+    {
       img: TestimonialImg02,
       quote:
-        "I highly recommend Md. Mahade Hasan as a Vue Frontend Developer. His integral role within our DEVxHUB team has given me the opportunity to closely collaborate with him. With a true passion for crafting innovative and user-friendly web apps, Md. Mahade consistently delivers high-quality work that often exceeds project requirements. His proficiency in tackling complex interfaces, optimizing performance, and resolving issues showcases his deep understanding of Vue and its ecosystem. His dedication to excellence and invaluable contributions make him a remarkable asset. Without a doubt, Md. Mahade would greatly enhance any team in search of a skilled and dedicated Vue Frontend Developer.",
+        "I highly recommend Md. Mahade Hasan for Vue Frontend Developer. His passion for crafting user-friendly web apps and proficiency in Vue make him a remarkable asset. His dedication and contributions greatly enhance any team.",
       name: "Eahiya Khan",
       role: "Lead Fullstack Developer",
     },
     {
       img: TestimonialImg03,
       quote:
-        "I wholeheartedly recommend Md. Mahade Hasan as a Vue Frontend Developer. He's been an integral part of our DEVxHUB team, and I've had the pleasure of closely collaborating with him. Md. Mahade Hasan is an exceptional Vue developer, deeply passionate about crafting innovative, user-friendly web apps. His technical prowess consistently delivers high-quality, often surpassing project requirements. Whether tackling complex interfaces, optimizing performance, or resolving issues, he demonstrates a profound understanding of Vue and its ecosystem. His contributions are invaluable, and his dedication to excellence is remarkable. I'm confident he'd be a valuable asset to any team seeking a skilled and devoted Vue Frontend Developer.",
+        "I wholeheartedly recommend Md. Mahade Hasan as a Vue Frontend Developer. His exceptional skills and dedication shine in our DEVxHUB team. Md. Mahade excels in crafting innovative, user-friendly web apps, making him an invaluable asset to any team.",
       name: "Rakib Shanto",
       role: "QA Engineer",
     },

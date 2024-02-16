@@ -68,13 +68,11 @@ const Experience = ({
             {company || institute}
           </h3>
         )}
-        <p className="text-sm text-gray-500 dark:text-gray-400 font-medium">
+        <p className="text-sm text-gray-500 font-medium">
           {position || degree} | {duration}
         </p>
         {location && (
-          <p className="text-sm text-gray-500 dark:text-gray-400 font-medium">
-            {location}
-          </p>
+          <p className="text-sm text-gray-500 font-medium">{location}</p>
         )}
         <ul className="text-sm text-gray-400 mt-2 mb-2 ml-4 list-disc">
           {desc &&
@@ -86,10 +84,8 @@ const Experience = ({
         </ul>
         {skills && (
           <div className="flex items-start space-x-2">
-            <p className="text-lg text-gray-500 dark:text-gray-400 font-medium">
-              *
-            </p>
-            <p className="text-sm text-gray-400 dark:text-gray-400">{skills}</p>
+            <p className="text-lg text-gray-500 font-medium">*</p>
+            <p className="text-sm text-gray-400">{skills}</p>
           </div>
         )}
       </motion.div>

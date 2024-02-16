@@ -61,7 +61,7 @@ export default Projects;
 export const ViewAll = ({ handleClick, title, scrollTo }: any) => {
   return (
     <>
-      <div className="bg-white dark:bg-grey-900 w-4/5 mx-auto blur-xl z-20 -translate-y-14 h-16"></div>
+      <div className="bg-white w-4/5 mx-auto blur-xl z-20 -translate-y-14 h-16"></div>
       <div className="text-center -translate-y-24">
         {title === "View All" ? (
           <button

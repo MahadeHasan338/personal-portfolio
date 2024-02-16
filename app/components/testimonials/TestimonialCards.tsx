@@ -72,7 +72,7 @@ export default function TestimonialsSlider({ testimonials }: any) {
               leaveTo="opacity-0 translate-x-4"
               beforeEnter={() => heightFix()}
             >
-              <div className="text-md md:text-xl xl:text-2xl font-bold text-slate-900 dark:text-white before:content-['\201C'] after:content-['\201D']">
+              <div className="text-md md:text-xl xl:text-2xl font-bold text-slate-900 before:content-['\201C'] after:content-['\201D']">
                 {testimonial.quote}
               </div>
             </Transition>
@@ -84,7 +84,7 @@ export default function TestimonialsSlider({ testimonials }: any) {
         {testimonials?.map((testimonial: any, index: any) => (
           <button
             key={index}
-            className={`inline-flex justify-center whitespace-nowrap rounded-full px-3 py-1.5 m-1.5 text-xs shadow-sm focus-visible:outline-none focus-visible:ring focus-visible:ring-indigo-300 dark:focus-visible:ring-slate-600 transition-colors duration-150 ${
+            className={`inline-flex justify-center whitespace-nowrap rounded-full px-3 py-1.5 m-1.5 text-xs shadow-sm focus-visible:outline-none focus-visible:ring focus-visible:ring-indigo-300 transition-colors duration-150 ${
               active === index
                 ? "bg-violet-600 text-white shadow-indigo-950/10"
                 : "bg-white hover:bg-indigo-100 text-slate-900"

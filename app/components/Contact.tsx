@@ -67,7 +67,7 @@ const Contact = () => {
               name="name"
               type="text"
               placeholder="Full Name *"
-              className="outline-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4"
+              className="outline-none bg-gray-100 placeholder-gray-400 rounded-lg py-3 px-4"
             />
             <input
               onChange={handleChange}
@@ -76,7 +76,7 @@ const Contact = () => {
               name="email"
               type="email"
               placeholder="Email *"
-              className="outline-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4"
+              className="outline-none bg-gray-100 placeholder-gray-400 rounded-lg py-3 px-4"
             />
             <textarea
               onChange={handleChange}
@@ -85,7 +85,7 @@ const Contact = () => {
               name="message"
               rows={4}
               placeholder="Message *"
-              className="outline-none resize-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4"
+              className="outline-none resize-none bg-gray-100 placeholder-gray-400 rounded-lg py-3 px-4"
             />
             <button
               disabled={loading}

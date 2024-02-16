@@ -13,9 +13,9 @@ const TypeWrite = () => {
           deleteSpeed: 50,
           delay: 50,
           wrapperClassName:
-            "text-violet-700 dark:text-violet-600 text-lg md:text-2xl font-medium",
+            "text-violet-700 text-lg md:text-2xl font-medium",
           cursorClassName:
-            "text-violet-700 dark:text-violet-600 text-lg md:text-2xl",
+            "text-violet-700 text-lg md:text-2xl",
         }}
       />
     </div>

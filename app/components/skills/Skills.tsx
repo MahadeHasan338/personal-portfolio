@@ -179,15 +179,15 @@ const Skills = () => {
     <SectionWrapper id="skills" className="mb-28 lg:mb-40 ">
       <h2 className="text-4xl text-center">Tech Stack</h2>
 
-      <div className="w-11/12 md:w-10/12 overflow-x-auto scroll-hide lg:w-1/2 mx-auto mt-6 bg-white dark:bg-grey-800 p-2 flex justify-between items-center gap-3 rounded-md">
+      <div className="w-11/12 md:w-10/12 overflow-x-auto scroll-hide lg:w-1/2 mx-auto mt-6 bg-white p-2 flex justify-between items-center gap-3 rounded-md">
         {categories.map((c, i) => (
           <span
             key={i}
             onClick={() => setCategory(c)}
             className={`p-1.5 md:p-2 text-sm md:text-base w-full text-center cursor-pointer rounded-md ${
               category.toLowerCase() === c.toLowerCase()
-                ? "bg-violet-600 dark:bg-violet-600 text-white"
-                : "bg-white dark:bg-grey-800 hover:bg-gray-100 hover:dark:bg-grey-900"
+                ? "bg-violet-600 text-white"
+                : "bg-white hover:bg-gray-100"
             } transition-all capitalize`}
           >
             {c}
