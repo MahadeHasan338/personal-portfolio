@@ -11,12 +11,7 @@ const Experiences = () => {
       url: "https://www.linkedin.com/company/devxhubcom/mycompany/",
       location: "Rajshahi, Bangladesh | Remote",
       position: "Frontend Engineer level I",
-      desc: [
-        "Performed comprehensive requirement analysis and engaged actively in all development phases.",
-        "Cultivated a collaborative culture emphasizing knowledge exchange, leading to a remarkable 50% surge in salary.",
-        "Assisted in writing clean, efficient, and modular code for various software projects.",
-        "Leveraging these skills to achieve exceptional outcomes.",
-      ],
+      desc: [],
       duration: "Sep 2023 - Present",
       skills:
         "Full Calender · SCSS · Express.js · Redux.js · Redux Thunk · Vue Js · GraphQL · REST APIs · TypeScript · Next.js · Node.js · Nuxt.js · Tailwind CSS · React.js",
@@ -26,12 +21,7 @@ const Experiences = () => {
       url: "https://www.linkedin.com/company/devxhubcom/mycompany/",
       location: "Rajshahi, Bangladesh | Remote",
       position: "Junior Frontend Engineer",
-      desc: [
-        "Performed comprehensive requirement analysis and engaged actively in all development phases.",
-        "Cultivated a collaborative culture emphasizing knowledge exchange, leading to a remarkable 50% surge in salary.",
-        "Assisted in writing clean, efficient, and modular code for various software projects.",
-        "Leveraging these skills to achieve exceptional outcomes.",
-      ],
+      desc: [],
       duration: "Sep 2022 - Sep 2023",
       skills:
         "Storefront UI · Odoo · Animation · Vuex · Pinia · Scrum · Vuetify · Nuxt JS · Vue StoreFront · GraphQL · REST APIs · TypeScript · Agile Methodologies · Quasar Framework · Bootstrap · Tailwind CSS · Vue.js",
@@ -41,12 +31,7 @@ const Experiences = () => {
       url: "https://www.linkedin.com/company/devxhubcom/mycompany/",
       location: "Rajshahi, Bangladesh | Remote",
       position: "Intern Frontend Engineer",
-      desc: [
-        "Performed comprehensive requirement analysis and engaged actively in all development phases.",
-        "Cultivated a collaborative culture emphasizing knowledge exchange, leading to a remarkable 50% surge in salary.",
-        "Assisted in writing clean, efficient, and modular code for various software projects.",
-        "Leveraging these skills to achieve exceptional outcomes.",
-      ],
+      desc: [],
       duration: "Feb 2022 - Aug 2022",
       skills:
         "SCSS · Animation · Nuxt JS · CSS · REST APIs · Communication · JavaScript · Tailwind CSS · Responsive Web Design · Vue.js",
@@ -58,25 +43,19 @@ const Experiences = () => {
       institute:
         "Bangabandhu Sheikh Mujibur Rahman Science and Technology University",
       degree: "Bachelor of Science in Biochemistry and Molecular Biology",
-      desc: [
-        "I actively participated in the Science Club, organizing competitions, workshops, and lectures.",
-      ],
+      desc: [],
       duration: "2016 - 2020",
     },
     {
       institute: "B.N School & Collage",
       degree: "HSC",
-      desc: [
-        "I actively participated in the Science Club, organizing competitions, workshops, and lectures.",
-      ],
+      desc: [],
       duration: "2013 - 2014",
     },
     {
       institute: "Narikelbaria Z.A High School",
       degree: "SSC",
-      desc: [
-        "I actively participated in the Science Club, organizing competitions, workshops, and lectures.",
-      ],
+      desc: [],
       duration: "2011 - 2012",
     },
   ];
