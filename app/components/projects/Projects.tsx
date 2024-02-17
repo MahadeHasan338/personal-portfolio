@@ -4,7 +4,10 @@ import SectionWrapper from "../SectionWrapper";
 import ProjectCard from "./ProjectCard";
 import Link from "next/link";
 import oeHealth from "@/public/projects/oeHealth.webp";
-import farenow from "@/public/projects/farenow.webp";
+import fareNowPro from "@/public/projects/farenow-pro.webp";
+import storefront from "@/public/projects/Vue-Storefront.webp";
+import sharpArchive from "@/public/projects/sharp-archive.webp";
+import fareNow from "@/public/projects/farenow.webp";
 
 const Projects = () => {
   const projectsData = [
@@ -12,18 +15,46 @@ const Projects = () => {
       name: "Oral e-Health Monitoring Platform",
       image: oeHealth,
       category: "Web",
-      techStack: "Nuxt JS, Django, Vuetify",
+      techStack: "Nuxt JS, Django, Vuetify, GraphQl",
       links: {
         visit: "https://teethwallet.com",
       },
     },
     {
-      name: "Farenow Pro",
-      image: farenow,
+      name: "FarenowPro Pro",
+      image: fareNowPro,
       category: "Web",
-      techStack: "Next JS, PHP, FullCalendar, Tailwind CSS",
+      techStack:
+        "Next JS, PHP, Ant Design, FullCalendar, OAuth, Tailwind CSS, Rest API",
       links: {
-        visit: "https://farenow-pro.vercel.app",
+        visit: "https://pro.farenowPro.com",
+      },
+    },
+    {
+      name: "Vue StoreFont",
+      image: storefront,
+      category: "Web",
+      techStack: "Vue JS, Tailwind CSS, Storefont UI, Oddo, Graphql",
+      links: {
+        visit: "https://vsf-dev.labs.odoogap.com",
+      },
+    },
+    {
+      name: "Sharp Archive",
+      image: sharpArchive,
+      category: "Web",
+      techStack: "Nuxt JS, Tailwind CSS, Animation, Rest API",
+      links: {
+        visit: "https://sharparchive.com",
+      },
+    },
+    {
+      name: "Farenow",
+      image: fareNow,
+      category: "Web",
+      techStack: "Next JS, Tailwind CSS, Rest API",
+      links: {
+        visit: "https://farenow.com/",
       },
     },
   ];
