@@ -97,7 +97,7 @@ export default function Header() {
             <Link
               key={e}
               className="hover:text-purple-600 py-1.5 px-4 rounded transition-colors capitalize cursor-pointer"
-              href={e}
+              href={`#${e}`}
               onClick={() => setNavCollapse(true)}
             >
               {e}

@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import SectionWrapper from "../SectionWrapper";
 import ProjectCard from "./ProjectCard";
 import Link from "next/link";
