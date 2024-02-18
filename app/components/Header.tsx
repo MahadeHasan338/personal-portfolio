@@ -55,7 +55,7 @@ export default function Header() {
             </li>
           ))}
           <Link
-            href="contact"
+            href="#contact"
             onClick={() => setNavCollapse(true)}
             className="hover:text-violet-700 transition-colors capitalize cursor-pointer"
           >
@@ -104,7 +104,7 @@ export default function Header() {
             </Link>
           ))}
           <Link
-            href="contact"
+            href="#contact"
             onClick={() => setNavCollapse(true)}
             className="hover:text-purple-600 py-1.5 px-4 rounded transition-colors capitalize cursor-pointer"
           >
