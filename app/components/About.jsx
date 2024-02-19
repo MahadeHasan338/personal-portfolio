@@ -9,9 +9,7 @@ const About = () => {
       id="about"
       className="mb-28 lg:mb-40 pt-5 bg-gradient-to-b from-white to-gray-100/20"
     >
-      <h2 className="text-4xl text-center text-gray-800">
-        About Me
-      </h2>
+      <h2 className="text-4xl text-center text-gray-800">About Me</h2>
 
       <div className="w-full lg:w-11/12 2xl:w-4/5 mt-6 mx-auto flex flex-col md:gap-4 lg:flex-row justify-between items-center">
         <div className="p-3 w-56 self-start md:w-2/5 lg:w-72 bg-white flex flex-col gap-2 items-center rounded-2xl mx-auto lg:mx-16 hover:-translate-y-2 transition-transform duration-300 lg:-rotate-3">
@@ -45,7 +43,7 @@ const About = () => {
             </p>
             <div className="flex items-center gap-4 md:mt-4">
               <Link
-                href="https://docs.google.com/document/d/1JAPaurIsj_9yCbRfx7SDLj_n0yt7my9c/edit?usp=sharing&ouid=116772106057388707905&rtpof=true&sd=true"
+                href="https://drive.google.com/file/d/1dgS4XXM10ssnmrrU4LVIjSljVfAOw4zM/view?usp=sharing"
                 target="_blank"
                 className="text-sm md:text-base bg-violet-600 text-white w-fit rounded-md py-2 px-6 hover:shadow-xl transition-shadow"
               >
