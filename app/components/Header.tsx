@@ -33,7 +33,7 @@ export default function Header() {
         scroll ? "border-b bg-white bg-opacity-40" : "border-b-0"
       }border-gray-200 z-30 min-w-full flex flex-col fixed`}
     >
-      <nav className="lg:w-11/12 2xl:w-4/5 w-full md:px-6 2xl:px-0 mx-auto py-4 hidden lg:flex items-center justify-between">
+      <nav className="lg:w-11/12 max-w-[1220px] w-full md:px-6 lg:px-0 2xl:px-0 mx-auto py-4 hidden lg:flex items-center justify-between">
         <Link href={"/"} className="flex items-center space-x-2 font-bold">
           <div className="h-10 w-10">
             <Image src={logo} alt="logo" priority></Image>

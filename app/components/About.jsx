@@ -11,7 +11,7 @@ const About = () => {
     >
       <h2 className="text-4xl text-center text-gray-800">About Me</h2>
 
-      <div className="w-full lg:w-11/12 2xl:w-4/5 mt-6 mx-auto flex flex-col md:gap-4 lg:flex-row justify-between items-center">
+      <div className="w-full lg:w-11/12 max-w-[1220px] mx-auto mt-6  flex flex-col md:gap-4 lg:flex-row justify-between items-center">
         <div className="p-3 w-56 self-start md:w-2/5 lg:w-72 bg-white flex flex-col gap-2 items-center rounded-2xl mx-auto lg:mx-16 hover:-translate-y-2 transition-transform duration-300 lg:-rotate-3">
           <Image
             src={mahade}
@@ -25,7 +25,7 @@ const About = () => {
           </span>
         </div>
 
-        <div className="flex-1 text-left mx-4 mt-4 md:mt-0 md:mx-0 px-6">
+        <div className="flex-1 text-left mx-4 mt-4 md:mt-0 md:mx-6 lg:mx-0">
           <div className="flex flex-col gap-2.5">
             <p className="text-3xl font-semibold">Mahade Hasan</p>
             <p className="text-violet-800 w-fit rounded py-1 px-2 text-sm bg-violet-50">

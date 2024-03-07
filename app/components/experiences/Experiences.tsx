@@ -40,6 +40,12 @@ const Experiences = () => {
 
   const educationData = [
     {
+      institute: "IDB-BISEW IT Scholarship Program",
+      degree: "Diploma in web development",
+      desc: [],
+      duration: "2021 - 2022",
+    },
+    {
       institute:
         "Bangabandhu Sheikh Mujibur Rahman Science and Technology University",
       degree: "Bachelor of Science in Biochemistry and Molecular Biology",
@@ -86,8 +92,8 @@ const Experiences = () => {
         ))}
       </div>
 
-      <div className="lg:container sm:mx-4 lg:mx-auto lg:w-5/6 2xl:w-3/4">
-        <div className="relative wrap overflow-hidden p-4 md:py-10 md:px-0">
+      <div className="lg:container sm:mx-4 lg:mx-auto lg:w-5/6">
+        <div className="relative wrap overflow-hidden p-4 md:py-10 md:px-0 max-w-[1220px] mx-auto">
           <div className="left-6 md:left-1/2 absolute border-opacity-20 border-gray-400 h-full border"></div>
 
           {viewAll

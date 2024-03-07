@@ -45,7 +45,7 @@ export default function Testimonials() {
     >
       <h2 className="text-4xl text-center">Testimonials</h2>
 
-      <div className="mt-6 lg:container sm:mx-4 lg:mx-auto lg:w-5/6 2xl:w-3/4">
+      <div className="mt-6 lg:container sm:mx-4 lg:mx-auto lg:w-5/6 max-w-[1220px]">
         <TestimonialsSlider testimonials={testimonials} />
       </div>
     </SectionWrapper>

@@ -179,7 +179,7 @@ const Skills = () => {
     <SectionWrapper id="skills" className="mb-28 lg:mb-40 ">
       <h2 className="text-4xl text-center">Tech Stack</h2>
 
-      <div className="w-11/12 md:w-10/12 overflow-x-auto scroll-hide lg:w-1/2 mx-auto mt-6 bg-white p-2 flex justify-between items-center gap-3 rounded-md">
+      <div className="w-11/12 md:w-10/12 max-w-[740px] overflow-x-auto scroll-hide lg:w-1/2 mx-auto mt-6 bg-white p-2 flex justify-between items-center gap-3 rounded-md">
         {categories.map((c, i) => (
           <span
             key={i}
@@ -195,7 +195,7 @@ const Skills = () => {
         ))}
       </div>
 
-      <div className="lg:w-3/4 2xl:w-3/5 my-8 mx-auto md:px-12 grid grid-cols-3 md:grid-cols-4 xl:grid-cols-5 place-items-center gap-8">
+      <div className="lg:w-3/4 max-w-[1220px] my-8 mx-auto md:px-12 grid grid-cols-3 md:grid-cols-4 xl:grid-cols-5 place-items-center gap-8">
         {skillData
           .filter((s) => s.category.toLowerCase() === category.toLowerCase())
           .map((s, i) => (

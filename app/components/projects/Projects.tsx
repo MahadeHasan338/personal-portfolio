@@ -68,7 +68,7 @@ const Projects = () => {
     <SectionWrapper id="projects" className="mx-4 md:mx-0 mb-12 lg:mb-20">
       <h2 className="text-4xl text-center">Projects</h2>
 
-      <div className="md:mx-6 lg:mx-auto lg:w-5/6 2xl:w-3/4 my-4 md:my-8 mx-auto grid md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-10">
+      <div className="md:mx-6 lg:mx-auto lg:w-5/6 max-w-[1220px] my-4 md:my-8 mx-auto grid md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-10">
         {projects
           .slice(0, viewAll ? filteredProjects.length : 6)
           .map((p, i) => (

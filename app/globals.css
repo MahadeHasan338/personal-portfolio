@@ -17,3 +17,7 @@ html {
 .scroll-hide::-webkit-scrollbar {
   display: none;
 }
+
+.wrapper {
+  @apply max-w-[1140px] mx-auto;
+}

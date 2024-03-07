@@ -7,12 +7,12 @@ import waveHand from "@/public/hero/waving-hand.gif";
 
 const Hero = () => {
   return (
-    <section id="home" className={` relative w-full mx-auto overflow-hidden`}>
-      <div className="absolute -z-10 h-full w-full">
-        <Image src={hero} alt="hero image" style={{ objectFit: "cover" }} />
+    <section id="home" className={`relative w-full mx-auto overflow-hidden`}>
+      <div className="absolute top-0 bottom-0 -z-10 h-full w-full">
+        <Image src={hero} fill alt="hero image" />
       </div>
 
-      <div className="py-16 lg:py-48 flex flex-col-reverse lg:flex-row justify-around gap-10 lg:gap-0">
+      <div className="py-16 lg:py-48 2xl:max-w-[1560px] mx-auto flex flex-col-reverse lg:flex-row justify-around gap-10 lg:gap-0">
         <div className="flex flex-col gap-4 md:gap-6 text-left lg:w-1/2 2xl:w-1/3 mx-4 md:mx-6 xl:mx-0">
           <div className="flex items-center gap-1">
             <Image src={waveHand} alt="waving-hand" width={30} height={30} />

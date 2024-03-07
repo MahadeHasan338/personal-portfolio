@@ -39,7 +39,7 @@ const Contact = () => {
       <h2 className="text-center text-4xl">Contact Me</h2>
       <ToastContainer />
 
-      <div className="w-full lg:w-5/6 2xl:w-3/4 mt-6 mx-auto flex justify-between rounded-xl">
+      <div className="w-full lg:w-5/6 max-w-[1220px] mt-6 mx-auto flex justify-between rounded-xl">
         <Image
           unoptimized={true}
           quality={100}
