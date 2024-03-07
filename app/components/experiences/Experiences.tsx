@@ -12,17 +12,7 @@ const Experiences = () => {
       location: "Rajshahi, Bangladesh | Remote",
       position: "Frontend Engineer level I",
       desc: [],
-      duration: "Sep 2023 - Present",
-      skills:
-        "Full Calender · SCSS · Express.js · Redux.js · Redux Thunk · Vue Js · GraphQL · REST APIs · TypeScript · Next.js · Node.js · Nuxt.js · Tailwind CSS · React.js",
-    },
-    {
-      company: "Developer Experience Hub",
-      url: "https://www.linkedin.com/company/devxhubcom/mycompany/",
-      location: "Rajshahi, Bangladesh | Remote",
-      position: "Junior Frontend Engineer",
-      desc: [],
-      duration: "Sep 2022 - Sep 2023",
+      duration: "Sep 2022 - Present",
       skills:
         "Storefront UI · Odoo · Animation · Vuex · Pinia · Scrum · Vuetify · Nuxt JS · Vue StoreFront · GraphQL · REST APIs · TypeScript · Agile Methodologies · Quasar Framework · Bootstrap · Tailwind CSS · Vue.js",
     },
