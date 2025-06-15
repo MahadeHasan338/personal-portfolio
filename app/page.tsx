@@ -7,7 +7,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 const Skills = dynamic(() => import("./components/skills/Skills"));
-const Project = dynamic(() => import("./components/projects/Projects"));
+// const Project = dynamic(() => import("./components/projects/Projects"));
 const Testimonials = dynamic(
   () => import("./components/testimonials/Testimonials")
 );
@@ -19,7 +19,7 @@ const Home = async () => {
       <Socials />
       <About />
       <Skills />
-      <Project />
+      {/* <Project /> */}
       <Experience />
       <Testimonials />
       <Contact />

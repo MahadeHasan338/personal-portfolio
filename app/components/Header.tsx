@@ -21,7 +21,7 @@ export default function Header() {
     "home",
     "about",
     "skills",
-    "projects",
+    // "projects",
     "experience",
     "testimonials",
     "contact",
@@ -44,7 +44,7 @@ export default function Header() {
         </Link>
 
         <ul className="flex items-center gap-8">
-          {navs.slice(0, 6).map((e, i) => (
+          {navs.slice(0, 5).map((e, i) => (
             <li key={i}>
               <Link
                 className="hover:text-violet-700 transition-colors capitalize cursor-pointer"
